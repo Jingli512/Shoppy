@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Shoppy</string>
+
+    <string name="NewShoppingList">New Shopping List</string>
+    <string name="NewRecipe">New Recipe</string>
+    <string name="MyRecipes">My Recipes</string>
+    <string name="MyShoppingLists">My Shopping Lists</string>
+
+    <string name="recipes">Recipes</string>
+    <string name="people">People:</string>
+
+    <string name="EnterShoppingListName">Enter Shopping List Name</string>
+    <string name="selectRecipe">Select Recipe</string>
+    <string name="AddRecipe">Add Recipe</string>
+
+    <string name="AddIndividualItems">Add Individual Items</string>
+    <string name="ItemName">Item Name</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Type">Type</string>
+    <string name="plus">+</string>
+
+    <string name="EnterAComment">Enter a comment(Optional)</string>
+
+    <string name="NoRecipesFound">No Recipes Found</string>
+    <string name="CreateNewRecipe">Create New Recipe</string>
+
+    <string name="NoShoppingListsFound">No Shopping Lists Found</string>
+    <string name="CreateNewShoppingList">Create New Shopping List</string>
+
+    <string name="NameOfRecipe">Name of recipe:</string>
+    <string name="NumberOfPeople">Number of people:</string>
+    <string name="AddIngredients">Add Ingredients:</string>
+    <string name="Method">Method(Optional)</string>
+    <string name="NewRecipeTo">Add recipe to My Recipes!</string>
+    <string name="title_activity_mashup">Map</string>
+    <string name="inspo_main">Need inspiration? Check out what people are eating near you!</string>
+    <string name="title_mu">Explore the map and click on markers to see what people are cooking near you!</string>
+    <string name="begin">Begin!</string>
+    <string name="start_search">Start Search</string>
+    <string name="find_my_location">Find My Location!</string>
+</resources>
