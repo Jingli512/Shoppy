@@ -10,7 +10,7 @@
         android:id="@+id/imageView2"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:src="@drawable/buttonmap"
+        android:src="@drawable/buttonmap1"
         app:layout_constraintBottom_toBottomOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="@+id/button6"
         app:layout_constraintHorizontal_bias="0.0"

@@ -187,7 +187,7 @@ public class Mashup extends AppCompatActivity implements OnMapReadyCallback {
     {
         getLastLocation();
         LatLng pos = new LatLng(latitude, longitude);
-        mMap.addMarker(new MarkerOptions().position(pos).icon(BitmapDescriptorFactory.fromResource(R.drawable.buttonmap)).title("Your Location"));
+        mMap.addMarker(new MarkerOptions().position(pos).icon(BitmapDescriptorFactory.fromResource(R.drawable.cart)).title("Your Location"));
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(pos, 16), 3000, null);
         new RetrieveFeedTask().execute();
     }
@@ -282,7 +282,7 @@ public class Mashup extends AppCompatActivity implements OnMapReadyCallback {
         protected void onPostExecute(Bitmap response) {
             progressBar.setVisibility(View.GONE);
             LatLng actualPos = new LatLng(lat, lon);
-            Marker m = mMap.addMarker(new MarkerOptions().position(actualPos).title("Second Marker!"));
+            Marker m = mMap.addMarker(new MarkerOptions().position(actualPos).icon(BitmapDescriptorFactory.fromResource(R.drawable.iconfood)).title("Second Marker!"));
             markers.put(m, response);
 
             // Do this later? Use a hashmap with a marker? Create a new marker here, then add it?
