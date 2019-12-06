@@ -204,7 +204,7 @@ public class Mashup extends AppCompatActivity implements OnMapReadyCallback {
 
 
             try {
-                URL url = new URL("https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=034bdf1edc4d8019c13486b8e7571495&tags=food&lat=" + latitude + "&lon=" + longitude + "&radius=5&extras=geo%2Curl_s&format=json&nojsoncallback=1"
+                URL url = new URL("https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=034bdf1edc4d8019c13486b8e7571495&tags=lunch%2Cdinner%2Cbreakfast&lat=" + latitude + "&lon=" + longitude + "&radius=5&extras=geo%2Curl_m&format=json&nojsoncallback=1"
                 );
                 HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
                 try {
@@ -241,7 +241,7 @@ public class Mashup extends AppCompatActivity implements OnMapReadyCallback {
                 for (int i = 0; i < 50; i ++)
                 {
                     JSONObject first = photos.getJSONObject(i);
-                    new RetrievePhoto(first.getString("url_s"), first.getDouble("latitude"), first.getDouble("longitude")).execute();
+                    new RetrievePhoto(first.getString("url_m"), first.getDouble("latitude"), first.getDouble("longitude")).execute();
                 }
 
 
